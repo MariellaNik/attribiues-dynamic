@@ -7,5 +7,4 @@ for(let product of products){
   const price = product.querySelector(".price").innerText;
   product.setAttribute("data-price", price);
 }
-
 });
